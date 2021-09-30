@@ -1,0 +1,23 @@
+package com.x_workz.controlStatements;
+
+public class WorkingOfPhone {
+	public static void instagram() {
+		System.out.println("working of phone be like ");
+	}
+
+	public static void whatsApp() {
+		System.out.println("see the status");
+	}
+
+	public static void call() {
+		System.out.println("check the call list");
+	}
+
+	public static void main(String[] args) {
+		WorkingOfPhone.instagram();
+		WorkingOfPhone.whatsApp();
+		WorkingOfPhone.call();
+
+	}
+
+}

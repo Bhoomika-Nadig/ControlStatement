@@ -1,0 +1,15 @@
+package com.x_workz.controlStatements;
+
+public class NewStudent {
+
+	public static void main(String[] args) {
+		String usn = "4tm17cs02020";
+		long phoneNumber = 9448232994l;
+		String name="Bhoomika";
+		int number =221;
+		System.out.println( name);
+		//System.out.println("phoneNumber" + phoneNumber);
+
+	}
+
+}

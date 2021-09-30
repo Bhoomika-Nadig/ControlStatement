@@ -1,0 +1,37 @@
+package com.x_workz.controlStatements;
+
+		public class Amazon {
+
+			
+		    public static void categories() {
+			  System.out.println("  home accessories\n" +"  watches\n" + "  clothes");
+		    }
+			
+
+			public static void addToCart() {
+				System.out.println("  Items are added to Cart ");
+			}
+
+			public static void paymentmethod() {
+				System.out.println("  payment method\n"+ "  COD \n" +"  Phonepay \n" + "  amazon pay \n" + "  g-pay \n");
+			}
+			public static void OrderAndReturns() {
+				System.out.println("  order placed successfull");
+			}
+
+			public static void main(String[] args) {
+				System.out.println("  Login to Amazon\n" + "  successfully login :)");
+				Amazon.categories();
+				Amazon.OrderAndReturns();
+				Amazon.addToCart();
+				Amazon.paymentmethod();
+				System.out.println("  logout\n" + "  your logout  successfully");
+			}
+
+		
+
+	}
+
+	}
+
+}

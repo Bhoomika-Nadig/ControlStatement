@@ -1,0 +1,24 @@
+package com.x_workz.controlStatements;
+
+public class NewStudent {
+
+	public static void main(String[] args) {
+		String usn = "4tm17cs02020";
+		long phoneNumber = 9448232994l;
+		String name="Bhoomika";
+        int sub=2;
+        float height=5.0f;
+        double number =22342dS;
+		System.out.println( name);
+		System.out.println("phoneNumber" + phoneNumber);
+		System.out.println("usn" + usn);
+		System.out.println("sub" + sub);
+		System.out.println("height" + height);
+		System.out.println("number" + number);
+
+
+
+
+	}
+
+}

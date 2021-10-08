@@ -1,6 +1,6 @@
 class Example{
 int age;
- String name;
+String name;
 Example(){
 System.out.println("default constructor is invoked");
 }

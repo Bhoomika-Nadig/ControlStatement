@@ -1,0 +1,3 @@
+enum Type2{
+ GENERAL,GOLD,CONNOISSEUR;
+ }

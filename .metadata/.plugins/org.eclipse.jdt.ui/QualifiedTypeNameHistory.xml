@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.xworkz.bridge.HostelRule"/>
+    <fullyQualifiedTypeName name="com.xworkz.bridge.SharavathiHostel"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="org.graalvm.compiler.nodes.memory.address.AddressNode.Address"/>
+    <fullyQualifiedTypeName name="com.xworkz.assignment.IndianCitizen"/>
+    <fullyQualifiedTypeName name="com.xworkz.assignment.MarriageRule"/>
+    <fullyQualifiedTypeName name="com.xworkz.assignment.TrafficRule"/>
+    <fullyQualifiedTypeName name="com.xworkz.assignment.VotingRule"/>
+    <fullyQualifiedTypeName name="com.xworkz.temple.DevoteeRule"/>
+</qualifiedTypeNameHistroy>

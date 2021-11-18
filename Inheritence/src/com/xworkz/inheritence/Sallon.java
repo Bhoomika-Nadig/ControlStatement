@@ -6,6 +6,6 @@ public class Sallon {
 
 	public Sallon() {
 		System.out.println("invoked Saloon no args const");
-	}
+	} 
 
 }

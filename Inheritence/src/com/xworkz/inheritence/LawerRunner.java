@@ -18,10 +18,10 @@ public class LawerRunner {
 		lawywrDTOs.setCasesWon(true);
 		lawywrDTOs.setCasesLost(false);
 
-		LawerDTO lawyerDTOs1 = new LawerDTO("bhoomika", "LLB", "3 Years", 'M', 28, "Suprime", true, false);
-		LawerDTO lawyerDTOs2 = new LawerDTO("Ramesh", "LLB", "2 Years", 'M', 28, "Suprime", true, false);
-		LawerDTO lawyerDTOs3 = new LawerDTO("Chetan", "LLB", "3 Years", 'M', 27, "Suprime", true, false);
-		LawerDTO lawyerDTOs4 = new LawerDTO("Abhi", "LLB", "1 Years", 'M', 24, "Suprime", true, false);
+		LawerDTO lawyerDTOs1 = new LawerDTO("bhoomika", "LLB", "3 Years", 'F', 23, "Suprime", true, false);
+		LawerDTO lawyerDTOs2 = new LawerDTO("karthik", "LLB", "2 Years", 'M', 28, "Suprime", true, false);
+		LawerDTO lawyerDTOs3 = new LawerDTO("vinay", "LLB", "3 Years", 'M', 27, "Suprime", true, false);
+		LawerDTO lawyerDTOs4 = new LawerDTO("monica", "LLB", "1 Years", 'F', 24, "Suprime", true, false);
 
 		LawyerDAO ref = new LawyerDAO();
 		ref.save(lawyerDTOs1);

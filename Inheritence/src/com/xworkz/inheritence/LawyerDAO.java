@@ -8,8 +8,6 @@ public class LawyerDAO {
 
 	public void save(LawerDTO dto) {
 		if (this.fire >= 0 && this.fire < this.lawyerDTOs.length) {
-			// System.out.println("Saved dto is :" +(dto)
-			// .concat(String.valueOf(this.fire)));
 			this.lawyerDTOs[this.fire++] = dto;
 		} else {
 			System.err.println("Cannot save the dto :".concat(String.valueOf(this.fire)));
@@ -48,12 +46,12 @@ public class LawyerDAO {
 
 	public boolean searchByName(String name) {
 		System.out.println("invoked searchByName");
-		System.out.println("name passed: ".concat(name));
+		System.out.println("name assigned: ".concat(name));
 
-		for (int kama = 0; kama < this.lawyerDTOs.length; kama++) {
-			LawerDTO ref = this.lawyerDTOs[kama];
+		for (int i = 0; i < this.lawyerDTOs.length; i++) {
+			LawerDTO ref = this.lawyerDTOs[i];
 			if (ref != null) {
-				System.out.println("ref in index is not null: ".concat(String.valueOf(kama)));
+				System.out.println("ref in index is not null: ".concat(String.valueOf(i)));
 				String tempName = ref.getName();
 				System.out.println("searching: ".concat(tempName));
 				if (name.equals(tempName)) {
@@ -108,12 +106,12 @@ public class LawyerDAO {
 
 	public String getExpByName(String name) {
 		System.out.println("invoked getExpByName");
-		System.out.println("name passed: ".concat(name));
+		System.out.println("name assigned: ".concat(name));
 
-		for (int kama = 0; kama < this.lawyerDTOs.length; kama++) {
-			LawerDTO ref = this.lawyerDTOs[kama];
+		for (int i = 0; i< this.lawyerDTOs.length; i++) {
+			LawerDTO ref = this.lawyerDTOs[i];
 			if (ref != null) {
-				System.out.println("ref in index is not null: ".concat(String.valueOf(kama)));
+				System.out.println("ref in index is not null: ".concat(String.valueOf(i)));
 				String tempName = ref.getName();
 				System.out.println("getExp name: ".concat(tempName));
 				if (name.equals(tempName)) {

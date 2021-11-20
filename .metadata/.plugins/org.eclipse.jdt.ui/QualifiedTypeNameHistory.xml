@@ -9,4 +9,7 @@
     <fullyQualifiedTypeName name="com.xworkz.assignment.TrafficRule"/>
     <fullyQualifiedTypeName name="com.xworkz.assignment.VotingRule"/>
     <fullyQualifiedTypeName name="com.xworkz.temple.DevoteeRule"/>
+    <fullyQualifiedTypeName name="com.xworkz.amazon.dao.AmazonCartDAO"/>
+    <fullyQualifiedTypeName name="com.xworkz.amazon.dao.CartDTO"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
